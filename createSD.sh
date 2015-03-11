@@ -1,4 +1,4 @@
-servers=(t1 t2 t3 LiveAU LiveDE LiveEU LiveIN LiveJP LiveSA LiveSG LiveUS LiveUSEast)
+servers=(t1 t2 t3 LiveAU LiveDE LiveEU LiveIN LiveJP LiveSA LiveSG LiveUS LiveUSEast LiveHK)
 
 i=0
 
