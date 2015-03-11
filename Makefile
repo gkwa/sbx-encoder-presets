@@ -1,8 +1,7 @@
-t:
-	sh createSD.sh >sd.txt
-	sh createHD.sh >hd.txt
-	echo manually add contents of hd.txt and sd.txt to win.ini
+win.ini: write_winini.py
+win.ini: data.py
+	@python write_winini.py >$@
+	@unix2dos --quiet $@
 
 clean:
-	rm -f hd.txt
-	rm -f sd.txt
+	rm -f win.ini
