@@ -7,7 +7,6 @@ LiveAU
 LiveDE
 LiveEU
 LiveHK
-LiveHK3
 LiveIN
 LiveJP
 LiveSA
