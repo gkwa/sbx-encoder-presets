@@ -15,6 +15,7 @@ LiveSA
 LiveSG
 LiveUS
 LiveUSEast
+es
 '''
 servers=[s.strip() for s in servers_string.splitlines() if (s.strip() != "" and not s.startswith('#'))]
 
