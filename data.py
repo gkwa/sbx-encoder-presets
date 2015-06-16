@@ -1,16 +1,14 @@
 servers_string = r'''
-t1
-t2
-t3
-t5
+tl1
+tl2
+tl3
 LiveAU
-# LiveDB
 LiveDE
 LiveEU
 LiveHK
-LiveHK2
 LiveIN
 LiveJP
+LiveJP2
 LiveSA
 LiveSG
 LiveUS
