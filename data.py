@@ -1,20 +1,18 @@
 servers_string = r'''
+LiveJP
+LiveSG
+LiveAU
+LiveUS
+LiveUSEast
+LiveSA
+LiveEU
+LiveDE
+LiveIN
+LiveNI
 tl1
 tl2
 tl3
-LiveAU
-LiveDE
-LiveEU
-LiveHK
-LiveNI
-LiveIN
-LiveJP
-LiveJP2
-LiveSA
-LiveSG
-LiveUS
-LiveUSEast
-es
+tl4
 '''
 servers=[s.strip() for s in servers_string.splitlines() if (s.strip() != "" and not s.startswith('#'))]
 
