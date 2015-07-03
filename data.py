@@ -6,6 +6,7 @@ LiveAU
 LiveDE
 LiveEU
 LiveHK
+LiveNI
 LiveIN
 LiveJP
 LiveJP2
