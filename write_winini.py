@@ -6,6 +6,7 @@ from data import winini_template
 
 sd1=""
 hd1=""
+3d1=""
 
 # ##############################
 # SD
@@ -55,7 +56,32 @@ for server in servers:
         preset_id=i
     )
 
+# ##############################
+# 3D
+# ##############################
+
+i=0
+
+3d1 += 3d_presets.format(
+    name='Localhost',
+    decoder_ip='127.0.0.1',
+    decoder_ip2='224.1.1.2',
+    preset_id=i
+)
+
+for server in servers:
+    i += 1
+    ip = socket.gethostbyname(server)
+    # print "%s: %s" %(server, s)
+    hd1 += hd_presets.format(
+        name=server,
+        decoder_ip=ip,
+        decoder_ip2='224.1.1.2',
+        preset_id=i
+    )
+
 print winini_template.format(
+    3D_PRESETS_STRING=hd1,
     HD_PRESETS_STRING=hd1,
     SD_PRESETS_STRING=sd1
 )
