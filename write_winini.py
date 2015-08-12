@@ -6,7 +6,7 @@ from data import winini_template
 
 sd1=""
 hd1=""
-3d1=""
+3d=""
 
 # ##############################
 # SD
@@ -62,7 +62,7 @@ for server in servers:
 
 i=0
 
-3d1 += 3d_presets.format(
+3d += 3d_presets.format(
     name='Localhost',
     decoder_ip='127.0.0.1',
     decoder_ip2='224.1.1.2',
@@ -81,7 +81,7 @@ for server in servers:
     )
 
 print winini_template.format(
-    3D_PRESETS_STRING=hd1,
+    3D_PRESETS_STRING=3d,
     HD_PRESETS_STRING=hd1,
     SD_PRESETS_STRING=sd1
 )
