@@ -16,7 +16,7 @@ tl4
 '''
 servers=[s.strip() for s in servers_string.splitlines() if (s.strip() != "" and not s.startswith('#'))]
 
-3d_presets=r'''
+THREED_presets=r'''
 _Preset_{preset_id}_Present=2
 _Preset_{preset_id}_Name={name}
 _Preset_{preset_id}__Network=0
@@ -215,5 +215,5 @@ audio_input=3
 PresetCurrentName=custom
 video_source=2
 
-{3D_PRESETS_STRING}
+{THREED_PRESETS_STRING}
 '''
