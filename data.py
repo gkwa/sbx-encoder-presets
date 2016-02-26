@@ -10,9 +10,6 @@ LiveDE
 LiveIN
 LiveNI
 tl1
-tl2
-tl3
-tl4
 '''
 servers=[s.strip() for s in servers_string.splitlines() if (s.strip() != "" and not s.startswith('#'))]
 
